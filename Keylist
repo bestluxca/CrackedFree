@@ -1,0 +1,40 @@
+local keylist = {"123"}
+local found = false
+
+for i, v in pairs(keylist) do 
+    if script_key == v then 
+       found = true
+       break 
+    end
+end
+
+if found then
+   print("Whitelist...") 
+   print("Whitelist...")
+   print("Whitelist...")
+   print("Please Wait While We Whitelist Your Key...") 
+   print("Whitelist...") 
+   print("Whitelist...")
+   print("Whitelist...")
+   print("Whitelist Done")
+   print("Unvalid Key, Wait Check And Try Again Later")
+   print("Unvalid Key, Wait Check And Try Again Later")
+   print("Unvalid Key, Wait Check And Try Again Later")
+   print("You Can't Use This Script For This Reason: Your Key Is Blacklisted")
+   setclipboard("https://discord.gg/C6VaVKsapN")
+   game.Players.LocalPlayer:Kick("Your Key Has Been Blacklisted, Please Check And Try Again Later!") 
+else
+   print("Whitelist...") 
+   print("Whitelist...")
+   print("Whitelist...")
+   print("Please Wait While We Whitelist Your Key...") 
+   print("Whitelist...") 
+   print("Whitelist...")
+   print("Whitelist...")
+   print("Whitelist Done")
+   print("Valid Key, Correct Key And Your Key Is Fine")
+   print("Valid Key, Correct Key And Your Key Is Fine")
+   print("Valid Key, Correct Key And Your Key Is Fine")
+   print("You Can Use This Script For This Reason: Your Key Is Fine")
+   print("Thank You For Using Our Script")
+end
